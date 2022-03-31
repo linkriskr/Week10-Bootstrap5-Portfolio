@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bootstrap5 Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/b1332edd10.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-light">
+
+    <!--nav start-->
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Profile</a>
+
+          <div class="dropdown">
+            <button class="btn btn-primary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#home">Home</a></li>
+              <li><a class="dropdown-item" href="#about">About</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+            </ul>
+          </div>       
+      </nav> 
+
+    <!--nav end-->
+
+    <!--home start-->
+
+    <section class="home" id="home">
+        <div class="container-lg mt-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="image  text-center">
+                        <img src="images/image1.jpeg" class="rounded-circle" alt="" width="300" />
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="home-text">
+                        <p class="text-muted">Hello World!</p>
+                        <h1 class="fs-4">I am Linkris</h1>
+                        <h2 class="text-primary text-uppercase">An ICT Instructor</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis quibusdam minima amet ipsam unde.</p>
+                        <a href="#contact" class="btn btn-primary">Contact me</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!--home end-->
+
+<!--about start-->
+    <section class="about bg-white" id="about">
+        <div class="container-lg py-5">
+            <!--section about heading-->
+            <div class="row">
+                <div class="section-heading text-center">
+                    <h2 class="fw-bold mb-5">About Me</h2>
+                </div>
+            </div>
+        </div>
+            <!--section about heading end-->
+
+            <div class="row">
+                <!--project area start-->
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi tempore perferendis optio quia eos maxime exercitationem nihil cum cumque alias!</p>
+                    </div>
+
+                    <!--stats-->
+                    <div class="row text-center text-uppercase my-3">
+                        <div class="col-sm-4">
+                            <div class="stats">
+                                <h4 class="fs-1 fw-bold">100</h4>
+                                <p class="text-muted">Projects Completed</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="stats">
+                                <h4 class="fs-1 fw-bold">50</h4>
+                                <p class="text-muted">Happy customers</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="stats">
+                                <h4 class="fs-1 fw-bold">100</h4>
+                                <p class="text-muted">Positive Reviews</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--stats end-->
+
+                    <!--social media link start-->
+                    <div class="row">
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <a href="#" class="btn btn-primary me-2">Download Resume</a>
+
+                            <div class="social-media">
+                                <a href="#" class="text-dark me-2"> <i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="text-dark me-2"> <i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-dark me-2"> <i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--social media links end-->
+
+                </div>
+                <!--project area end-->
+
+                <!--progress bar area start-->
+                <div class="col-lg-6">
+                    <div class="skill mt-5 mb-4">
+                        <h3 class="fs-6">HTML</h3>
+                          <div class="progress" style="height: 10px;">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+
+                    <div class="skill mt-5 mb-4">
+                        <h3 class="fs-6">CSS</h3>
+                          <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+
+                    <div class="skill mt-5 mb-4">
+                        <h3 class="fs-6">Bootstrap5</h3>
+                          <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+
+                    <div class="skill mt-5 mb-4">
+                        <h3 class="fs-6">CSS Animation</h3>
+                          <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                </div>
+                <!--progress bar area end-->
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--about end-->
+
+    <!--contact start-->
+
+    <section class="contact" id="contact">
+        <div class="container-lg py-4">
+            <!--contact heading start-->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-heading text-center mb-5">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <!--contact heading end-->
+
+            <!--contact area start-->
+            <div class="row">
+                <!--contact details start-->
+                <div class="col-lg-5">
+                    <!--envelope start-->
+                    <div class="contact-details d-flex mb-3">
+                        <div class="icon fs-4 text-primary">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted">mysample@gmail.com</p>
+                        </div>
+                    </div>
+                    <!--envelope end-->
+
+                    <!--Phone start-->
+                    <div class="contact-details d-flex mb-3">
+                        <div class="icon fs-4 text-primary">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Phone</h3>
+                            <p class="text-muted">+123654789</p>
+                        </div>
+                    </div>
+                    <!--Phone end-->
+
+                    <!--Adress start-->
+                    <div class="contact-details d-flex mb-3">
+                        <div class="icon fs-4 text-primary">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Aadress</h3>
+                            <p class="text-muted">Street name, Building number, City, State, ZIP code</p>
+                        </div>
+                    </div>
+                    <!--Address end-->
+
+
+                </div>
+
+                <!--Contact form start-->
+                <div class="col-lg-7">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6">
+                                </div>
+
+                                <div class="col-lg-6 mb-4">
+                                    <input type="email" placeholder="Your Email" class="form-control form-control-lg fs-6">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <textarea placeholder="Enter your message" rows="5" class="form-control form-control-lg fs-6"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12 mt-4">
+                                    <button class="btn btn-danger px-3">Submit</button>
+                                </div>
+                               
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!--Contact form end-->
+
+            <!--contact details end-->
+
+            </div>
+            <!--contact area end-->
+        </div>
+    </section>
+
+    <footer class="footer py-4 border-top">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-center text-muted">
+                        &#169; 2022 Linkris
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
